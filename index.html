@@ -3,28 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
-  <link rel="stylesheet" href="./vendor/fonts.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
 <body class="root">
   <div class="page">
-    <header class="header container containerL containerM containerS">
+    <header class="header page__container page__container_size_L page__container_size_M page__container_size_S">
       <div class="header__logo"></div>
-      <div class="header__lang-links">
-        <a href="#" class="header__lang-link">Ru</a>
-        <a href="#" class="header__lang-link">En</a>
-      </div>
+      <ul class="header__lang-links">
+        <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
+        <li><a href="#" class="header__lang-link">En</a></li>
+      </ul>
     </header>
-    <main class="content container">
-      <section class="lead containerL">
-        <h1 class="lead__title containerM">Путешествия по России</h1>
-        <p class="lead__subtitle containerM">Настоящая страна не в выпусках новостей,&nbsp;а&nbsp;здесь.</p>
+    <main class="content page__container">
+      <section class="lead page__container_size_L">
+        <h1 class="lead__title page__container_size_M">Путешествия по России</h1>
+        <p class="lead__subtitle page__container_size_M">Настоящая страна не в выпусках новостей,&nbsp;а&nbsp;здесь.</p>
         <img src="./images/lead-polka.jpg" alt="Полка в поезде" class="lead__image">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
-      <section class="intro containerL containerM containerS">
+      <section class="intro page__container_size_L page__container_size_M page__container_size_S">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
@@ -35,7 +33,7 @@
           <li class="intro__list-text">Аэропортов<span class="intro__digits"> 241</span></li>
         </ul>
       </section>
-      <div class="photo-grid containerL containerM containerS">
+      <section aria-label="Фотогрид" class="photo-grid page__container_size_L page__container_size_M page__container_size_S">
         <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Поезд">
         <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Атхарва-тулси">
         <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Туман">
@@ -48,13 +46,13 @@
         <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка">
         <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Байкал">
         <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Ергаки">
-      </div>
-      <div class="places containerL containerM containerXS">
+      </section>
+      <section aria-label="Места" class="places page__container_size_L page__container_size_M page__container_size_XS">
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
           </div>
           <div class="place__paragraphs">
@@ -66,7 +64,7 @@
           <h2 class="place__title">Кольский</h2>
           <img class="place__image" src="./images/place-kolsky.jpg" alt="Кольский">
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
           </div>
           <div class="place__paragraphs">
@@ -80,7 +78,7 @@
           <h2 class="place__title">Алтай</h2>
           <img class="place__image" src="./images/place-altai.jpg" alt="Алтай">
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ
             " class="place__link">YouTube</a>
           </div>
@@ -94,7 +92,7 @@
           <h2 class="place__title">Зимний Байкал</h2>
           <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал">
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
           </div>
           <div class="place__paragraphs">
@@ -108,7 +106,7 @@
           <h2 class="place__title">Карелия</h2>
           <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <p class="place__url-heading">url</p>
             <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
           </div>
           <div class="place__paragraphs">
@@ -117,27 +115,26 @@
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
           </article>
-        </div>
+      </section>
       <section class="cover">
-        <div class="cover__container">
-          <a class="cover__card" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-            <img src="./images/cover-trains.jpg" alt="Поезда" class="cover__image">
-            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-          </a>
-        </div>
+        <a class="cover__card" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        </a>
       </section>
      
     </main>
-    <footer class="footer container containerL containerM containerS">
-      <ul class="footer__links">
-        <li><a href="#"  class="footer__link">Карты</a></li>
-        <li><a href="#"  class="footer__link">Погода</a></li>
-        <li><a href="#"  class="footer__link">Расписание</a></li>
-        <li><a href="#"  class="footer__link">Календарь</a></li>
-        <li><a href="#"  class="footer__link">Путешествия</a></li>
-      </ul>
-      <p class="footer__copyright">&copy; 2020 Марина Хрипанкова</p>
+    <footer class="footer page__container page__container_size_L page__container_size_M page__container_size_S">
+      <nav>
+        <ul class="footer__links">
+         <li><a href="#"  class="footer__link">Карты</a></li>
+         <li><a href="#"  class="footer__link">Погода</a></li>
+         <li><a href="#"  class="footer__link">Расписание</a></li>
+         <li><a href="#"  class="footer__link">Календарь</a></li>
+         <li><a href="#"  class="footer__link">Путешествия</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">&copy; 2023 Марина Хрипанкова</p>
     </footer>
   </div>
 </body>
