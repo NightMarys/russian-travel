@@ -2,11 +2,11 @@
 @import url(../vendor/fonts.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__container/page__container.css);
-@import url(../blocks/page/__container/_size/page__container_size_L.css);
-@import url(../blocks/page/__container/_size/page__container_size_M.css);
-@import url(../blocks/page/__container/_size/page__container_size_S.css);
-@import url(../blocks/page/__container/_size/page__container_size_XS.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/container/_size/container_size_L.css);
+@import url(../blocks/container/_size/container_size_M.css);
+@import url(../blocks/container/_size/container_size_S.css);
+@import url(../blocks/container/_size/container_size_XS.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
