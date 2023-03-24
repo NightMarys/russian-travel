@@ -1,6 +1,6 @@
 .place__paragraphs {
   grid-area: text;
-  width: 100%;  
+  width: 100%;
 }
 
 @media screen and (max-width: 500px) {
