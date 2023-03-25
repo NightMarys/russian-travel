@@ -3,6 +3,7 @@
   margin: 0;
   width: 100%;
   margin-left: 100px;
+  box-sizing: content-box;
 }
 
 @media screen and (max-width: 1279px) {
